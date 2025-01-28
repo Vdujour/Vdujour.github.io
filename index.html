@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>TD1 App meteo</title>
+</head>
+<body onload="afficheVille()">
+    <header>
+        <h1>TD n°1 Programmation web - Application météo</h1>
+    </header>
+    <div class="content">
+        <div class="container-lst">
+            <p>Choisir une ville :</p>
+            <select id="lst" onchange="afficheVille()">
+                <option value="niort">Niort</option>
+                <option value="saint-brieuc">Saint-Brieuc</option>
+                <option value="marseille">Marseille</option>
+            </select>
+        </div>
+
+        <div class="container-info">
+            <div class="container-ville" id="niort">
+                <h2>Niort</h2>
+                <p id="niort-temp"></p>
+                <p id="niort-description"></p>
+            </div>
+            <div class="container-ville" id="saint-brieuc">
+                <h2>Saint-Brieuc</h2>
+                <p id="saint-brieuc-temp"></p>
+                <p id="saint-brieuc-description"></p>
+            </div>
+            <div class="container-ville" id="marseille">
+                <h2>Marseille</h2>
+                <p id="marseille-temp"></p>
+                <p id="marseille-description"></p>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <h2>Valentin Dujour</h2>
+        <p>Icônes créées par : <a href="https://thenounproject.com/">The Noun Project</a></p>
+    </footer>
+
+    <!-- Inclusion du fichier JavaScript -->
+    <script src="./prog.js"></script>
+</body>
+</html>
