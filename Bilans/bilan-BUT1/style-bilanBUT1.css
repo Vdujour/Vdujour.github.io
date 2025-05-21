@@ -1,0 +1,222 @@
+*{
+    padding: 0;
+    margin: 0;
+    outline: none;
+    border: none;
+    box-sizing: border-box;
+}
+
+img{
+    width: 100%;
+    display: flex;
+}
+
+a{
+    text-decoration: none;
+
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: var(--body_color);
+    color: var(--text-color);
+}
+
+/* Haut de page */
+
+header{
+    max-width: 100%;
+    margin: auto;
+    display:flex;
+    align-items: center;
+    justify-content:center;
+    gap: 2rem;
+    background-color: var(--secondary-color);
+    font-size: 1.25rem;
+}
+
+.header-logo{
+    max-width: 120px;
+}
+
+.header-liste{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+}
+
+.lien a{
+    position: relative;
+    padding-bottom: 0.75rem;
+    color: #fff;
+}
+
+.lien a::after {
+    content: "";
+    position: absolute;
+    height: 2px;
+    width: 0;
+    bottom: 0;
+    left: 0;
+    background-color: var(--blue);
+    transition: all 0.4s ease;
+}
+
+.lien a:hover::after{
+    width: 100%;
+}
+
+/*BILAN*/
+
+.conteneur-bilan{
+    max-width: 65%;
+    margin: auto;
+    margin-top: 6rem;
+    margin-bottom: 7rem;
+    padding: 2rem 2rem 6rem;
+    background-color: var(--blue);
+    border-radius: 25px;
+}
+
+section h2{
+    color: #fff;
+    font-size: 2rem;
+    padding: 3rem;
+    text-align: center;
+}
+
+.par-bilan p{
+    color: #fff;
+}
+
+.contenu-bilan2{
+    position: relative;
+    display:grid;
+    align-items: center;
+    justify-items: center;
+}
+
+section .photo-bilan{
+    position: relative;
+}
+
+section .photo-bilan img{
+    max-width:100%;
+    border-radius: 15px;
+}
+
+/* Footer */
+
+#contact {
+    text-align: center;        /* Centre le texte horizontalement */
+    display: flex;
+    flex-direction: column;
+    align-items: center;       /* Centre horizontalement les éléments enfants */
+    gap: 20px;                 /* Un petit espace entre les éléments */
+    padding: 20px;             /* Un peu d’espace autour */
+    font-size: 1.3rem;
+    color: #fff;
+    background-color: var(--secondary-color);
+  }
+  
+  .contenu-footer .text-footer {
+    display: flex;
+    justify-content: center;   /* Centre les pictos horizontalement */
+    gap: 60px;                 /* Espace entre les icônes */
+  }
+  
+  .footer-logo a img {
+    max-width: 150px;          /* Taille max du logo */
+    height: auto;
+  }
+
+  .phone-icon, .mail-icon, .linkedin-icon{
+    color: #fff;
+    transition: all 0.3s ease;
+    width: 32px;
+    height: 32px;
+}
+
+.text-footer a:hover{
+    color: var(--blue);
+}
+
+@media (width < 900px){
+    /*nav bar*/
+
+    .header-liste{
+        display: none;
+    }
+
+    nav{
+        grid-template-columns: repeat(1,1fr);
+        font-size: 0.85rem;
+    }
+
+    nav .contenu{
+        text-align: center;
+    }
+
+    nav .photo-profil img{
+        max-width: 300px;
+    }
+
+    nav .CV{
+        margin: 0 auto;
+        margin-top: 1rem;
+        max-width: 210px;
+    }
+
+    nav .contenu h1{
+        font-size: 1.5rem;
+        line-height: 2.5rem;
+    }
+
+    nav .contenu h1 span{
+        font-size: 2.5rem;
+    }
+
+    p{
+        font-size: 1rem;
+        text-align: justify;
+    }
+
+    section h2{
+        font-size: 1.5rem;
+        padding: 1rem 1rem 1rem;
+    }
+
+    .titre{
+        max-width: 350px;
+    }   
+
+    .conteneur-bilan{
+        padding: 1rem 1rem 4rem;
+        max-width: 80%;
+    }
+
+    .par-bilan{
+        font-size: 0.8rem;
+    }
+
+    .text-footer{
+        display:block;
+        text-align: center;
+    }
+
+    .contenu-footer{
+        justify-content: space-around;
+        gap: 0;
+    }
+}
+
+
+:root {
+    --primary-color: #748cab;
+    --secondary-color: #0a1b29;
+    --text-color: #333;
+    --text-color-bold: #000000;
+    --body_color: #f0ebd8;
+    --blue: #204b6b;
+}
