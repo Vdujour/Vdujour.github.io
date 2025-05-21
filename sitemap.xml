@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+
+<url>
+  <loc>https://vdujour.github.io/</loc>
+  <lastmod>2025-05-21T19:15:01+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://vdujour.github.io/index.html</loc>
+  <lastmod>2025-05-21T19:15:01+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://vdujour.github.io/A_propos/propos.html</loc>
+  <lastmod>2025-05-21T19:15:01+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://vdujour.github.io/Projets/projets.html</loc>
+  <lastmod>2025-05-21T19:15:01+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://vdujour.github.io/Bilans/bilans.html</loc>
+  <lastmod>2025-05-21T19:15:01+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://vdujour.github.io/Accueil/VD-CV.pdf</loc>
+  <lastmod>2025-05-21T19:15:01+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://vdujour.github.io/Projets/projets-BUT1/Projets%20BUT1.html</loc>
+  <lastmod>2025-05-21T19:15:01+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://vdujour.github.io/Projets/projets-BUT2/Projets%20BUT2.html</loc>
+  <lastmod>2025-05-21T19:15:01+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://vdujour.github.io/Bilans/bilan-BUT1/Bilan%20BUT1.html</loc>
+  <lastmod>2025-05-21T19:15:01+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://vdujour.github.io/Bilans/bilan-BUT2/Bilan%20BUT2.html</loc>
+  <lastmod>2025-05-21T19:15:01+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+
+
+</urlset>
