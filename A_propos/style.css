@@ -250,7 +250,6 @@ section .photo-propos img{
         background-color: var(--secondary-color);
         padding: 1rem 0;
         z-index: 999;
-        border-radius: 8px;
     }
 
     .header-liste.active {
