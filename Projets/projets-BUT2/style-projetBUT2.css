@@ -127,7 +127,10 @@ section .photo-projet img{
     grid-template-columns: repeat(2, 1fr);
 }
 
-
+.acces-projet:hover{
+    color: var(--secondary-color);
+    transition: all 0.4s ease;
+}
 
 /* Footer */
 

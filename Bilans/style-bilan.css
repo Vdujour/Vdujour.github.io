@@ -107,8 +107,9 @@ section .photo-bilan img{
 }
 
 h3{
-    color: var(--secondary-color);
+    color: var(white);
     font-weight: bold;
+    text-decoration: underline;
     font-size: 1.3rem;
 }
 
