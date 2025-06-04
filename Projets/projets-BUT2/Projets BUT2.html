@@ -7,20 +7,27 @@
         <title>Portfolio Valentin Dujour - Projets BUT 2</title>
     </head>
     <header>
-        <div class="header-logo">
-            <a href="https://iutp.univ-poitiers.fr/sd/" target="_blank">
-                <img src="../../logo/logo_sd.png" alt="Logo de Science des données">
-            </a>
-        </div>
+        <div class="header-container">
+            <div class="burger-menu" id="burger-menu">
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+            </div>
+            <div class="header-logo">
+                <a href="https://iutp.univ-poitiers.fr/sd/" target="_blank">
+                    <img src="../../logo/logo_sd.png" alt="Logo de Science des données">
+                </a>
+            </div>
 
-        <ul class="header-liste">
-            <li class="lien"><a href="../../index.html">Accueil</a></li>
-            <li class="lien"><a href="../../A_propos/propos.html">À propos de moi</a></li>
-            <li class="lien"><a href="../../Alternance/alternance.html">Mon alternance</a></li>
-            <li class="lien"><a href="../projets.html">Mes projets</a></li>
-            <li class="lien"><a href="../../Bilans/bilans.html">Mes bilans</a></li>
-            <li class="lien"><a href="#contact">Contact</a></li>
-        </ul> 
+            <ul class="header-liste">
+                <li class="lien"><a href="../../index.html">Accueil</a></li>
+                <li class="lien"><a href="../../A_propos/propos.html">À propos de moi</a></li>
+                <li class="lien"><a href="../../Alternance/alternance.html">Mon alternance</a></li>
+                <li class="lien"><a href="../projets.html">Mes projets</a></li>
+                <li class="lien"><a href="../../Bilans/bilans.html">Mes bilans</a></li>
+                <li class="lien"><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
     </header>
     <body>
         <div class="titre">
@@ -28,20 +35,27 @@
         </div>
         <div class="projet-duo">
             <section class="conteneur-projet" id="projet">
-                <h2>Analyse de la situation socio-économique de la Martinique</h2>
+                <h2>Création d'un site de gestion - Concession BMW</h2>
                 <div class="contenu-projet">
                     <div class="contenu-projet2">
                         <div class="par-projet">
                             <p>
-                                L'objectif de ce projet était de réaliser une analyse de la situation socio-économique de la Martinique en 2020.
-                                Les données utilisées sont des données provenants de l'INSEE, sur la démographie en Martinique. 
-                                Ce projet a été réalisé individuellement sur une durée d'un mois et demi.
-                                La réalisation des graphiques a été effectuée sur Excel afin de faire un compte-rendu de la finalisation du travail en PDF.
+                                L'objectif de ce projet était de réaliser un site internet destiné à faciliter la gestion d'une concession automobile BMW. 
+                                Nous avons mené ce projet en duo. Pour le réaliser, nous avons développé des compétences en PHP et JavaScript, afin 
+                                d'alimenter une base de données hébergée sur un serveur PhpMyAdmin.
+                                <br>
+                                <br>
+                                Ce site permet de référencer les vendeurs, les clients, les ventes et les véhicules de la concession. Bien sûr, les 
+                                modifications de la base de données peuvent se faire directement depuis le site.
+                                <br>
+                                <br>
+                                Nous avons également conçu une partie "tableau de bord" destinée aux utilisateurs se connectant avec un identifiant spécifique. 
+                                Cette section permet d’évaluer les performances des vendeurs de la concession et d’effectuer des analyses sur les véhicules vendus.
                             </p>
                         </div>
 
                         <div class="photo-projet">
-                            <img src="./photo_projet/projet martinique.png" alt="photo projet martinique">
+                            <img src="./photo_projet/projet BMW php.PNG" alt="photo projet martinique">
                         </div>
                     </div>
                 </div>
@@ -49,20 +63,24 @@
 
 
             <section class="conteneur-projet" id="projet">
-                <h2>Écriture et lecture d'un fichiers de données en Python</h2>
+                <h2>Application automatisé - Section sportive La Venise Verte</h2>
                 <div class="contenu-projet">
                     <div class="contenu-projet2">
                         <div class="par-projet">
                             <p>
-                                L'objectif de ce projet était de réécrire un fichier JSON pour le mettre en CSV à l'aide de python. 
-                                Ce projet a été réalisé par groupe de deux sur une durée d'une semaine. 
-                                Grâce à ce projet, j'ai commencé à découvrir le travail de groupe avec les difficultés associées. 
-                                Ce projet m'a permis de comprendre l'importance de la gestion des données afin de les traitées.
+                                L'objectif de ce projet était de réaliser une application VBA afin de référencer les joueurs de la section football du lycée 
+                                La Venise Verte à Niort. Cette application permet d'établir un classement en fonction des notes attribuées au préalable par les 
+                                coachs.
+                                <br>
+                                <br>
+                                Chaque joueur possède une fiche technique contenant ses notes effectives ainsi que ses caractéristiques (âge, provenance, etc...). 
+                                L'application permet également de comparer des joueurs sélectionnés en fonction de leurs résultats, ce qui en fait un véritable 
+                                outil d’aide à la décision pour identifier les joueurs les plus performants lors des sélections.
                             </p>
                         </div>
 
                         <div class="photo-projet">
-                            <img src="./photo_projet/gestion de fichier.JPG" alt="photo projet gestion de fichier">
+                            <img src="./photo_projet/projet VBA LVV.PNG" alt="photo projet gestion de fichier">
                         </div>
                     </div>
                 </div>
@@ -267,38 +285,42 @@
                 </div>
             </div>
         </section>
-        <footer id="contact">
-            <h3>CONTACT</h3>
-    
-            <div class="contenu-footer">
-                <div class="text-footer">
-                    <a href="valentin.dujour@icloud.com" class="mail-icon">
-                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
-                            <path d="M20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/>
-                        </svg>
-                    </a>
-                      
-                    <a href="0643149762" class="phone-icon">
-                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
-                            <path d="M6.62 10.79a15.053 15.053 0 006.59 6.59l2.2-2.2a1.003 1.003 0 011.01-.24c1.12.37 2.33.57 3.58.57a1 1 0 011 1v3.5a1 1 0 01-1 1C10.49 21.01 2.99 13.51 2.99 4a1 1 0 011-1H7.5a1 1 0 011 1c0 1.25.2 2.46.57 3.58a1 1 0 01-.25 1.01l-2.2 2.2z"/>
-                        </svg>
-                    </a>
-    
-                    <a href="https://www.linkedin.com/in/valentin-dujour-304b32279" target="_blank" class="linkedin-icon">
-                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
-                            <path d="M4.98 3.5C4.98 4.88 3.87 6 2.5 6S0 4.88 0 3.5 1.12 1 2.5 1 4.98 2.12 4.98 3.5zM0 8h5v16H0V8zm7.5 0h4.8v2.2h.1c.67-1.2 2.3-2.5 4.7-2.5 5 0 5.9 3.3 5.9 7.6V24h-5v-7.4c0-1.8 0-4.1-2.5-4.1-2.5 0-2.9 2-2.9 4v7.5h-5V8z"/>
-                        </svg>
-                    </a>
-                </div>
-            </div>
-    
-            <div class="footer-logo">
-                <a href="https://iutp.univ-poitiers.fr/sd/" target="_blank">
-                    <img src="../../logo/logo_sd.png" alt="Logo de Science des données">
+    </body>
+
+    <script src="../../Javascript/menu_burger.js"></script>
+
+    <footer id="contact">
+        <h3>CONTACT</h3>
+
+        <div class="contenu-footer">
+            <div class="text-footer">
+                <a href="valentin.dujour@icloud.com" class="mail-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/>
+                    </svg>
+                </a>
+                    
+                <a href="0643149762" class="phone-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M6.62 10.79a15.053 15.053 0 006.59 6.59l2.2-2.2a1.003 1.003 0 011.01-.24c1.12.37 2.33.57 3.58.57a1 1 0 011 1v3.5a1 1 0 01-1 1C10.49 21.01 2.99 13.51 2.99 4a1 1 0 011-1H7.5a1 1 0 011 1c0 1.25.2 2.46.57 3.58a1 1 0 01-.25 1.01l-2.2 2.2z"/>
+                    </svg>
+                </a>
+
+                <a href="https://www.linkedin.com/in/valentin-dujour-304b32279" target="_blank" class="linkedin-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M4.98 3.5C4.98 4.88 3.87 6 2.5 6S0 4.88 0 3.5 1.12 1 2.5 1 4.98 2.12 4.98 3.5zM0 8h5v16H0V8zm7.5 0h4.8v2.2h.1c.67-1.2 2.3-2.5 4.7-2.5 5 0 5.9 3.3 5.9 7.6V24h-5v-7.4c0-1.8 0-4.1-2.5-4.1-2.5 0-2.9 2-2.9 4v7.5h-5V8z"/>
+                    </svg>
                 </a>
             </div>
-    
-            <script src="../../Javascript/copier_contacts.js"></script>
-    
-        </footer>  
-    </body>
+        </div>
+
+        <div class="footer-logo">
+            <a href="https://iutp.univ-poitiers.fr/sd/" target="_blank">
+                <img src="../../logo/logo_sd.png" alt="Logo de Science des données">
+            </a>
+        </div>
+
+        <script src="../../Javascript/copier_contacts.js"></script>
+
+    </footer>
+</html>

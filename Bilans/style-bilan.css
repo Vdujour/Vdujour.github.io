@@ -24,7 +24,7 @@ body{
 
 /* Haut de page */
 
-header{
+.header-container{
     max-width: 100%;
     margin: auto;
     display:flex;
@@ -221,6 +221,10 @@ hr{
         justify-content: space-around;
         gap: 0;
     }
+
+    h3{
+        font-size: 1.2rem;
+    }
 }
 
 
@@ -231,4 +235,64 @@ hr{
     --text-color-bold: #000000;
     --body_color: #f0ebd8;
     --blue: #204b6b;
+}
+
+
+/*MENU BURGER*/
+
+.burger-menu {
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 40px;
+    height: 30px;
+    cursor: pointer;
+}
+
+.burger-menu .bar {
+    height: 5px;
+    width: 100%;
+    background-color: white;
+    border-radius: 3px;
+}
+
+.header-liste {
+    transition: all 0.5s ease-in-out;
+}
+
+@media (max-width: 900px) {
+
+    .header-container{
+        justify-content: space-around;
+    }
+
+    .header-liste {
+        display: none;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+        position: absolute;
+        top: 12%;
+        left: 0;
+        width: 100%; /* Largeur de l’écran */
+        background-color: var(--secondary-color);
+        padding: 1rem 0;
+        z-index: 999;
+    }
+
+    .header-liste.active {
+        display: flex;
+    }
+
+
+    .burger-menu {
+        display: flex;
+        z-index: 1000;
+    }
+
+    .header-liste.active {
+        display: flex;
+    }
+
 }
