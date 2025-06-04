@@ -19,7 +19,7 @@ a{
 body{
     font-family: 'Poppins', sans-serif;
     background-color: var(--body_color);
-    color: var(--text-color);
+    color: white;
 }
 
 /* Haut de page */
@@ -104,6 +104,18 @@ section .photo-bilan{
 section .photo-bilan img{
     max-width:100%;
     border-radius: 15px;
+}
+
+h3{
+    color: var(--secondary-color);
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+
+hr{
+    background-color: var(--secondary-color);
+    height: 2px;
+
 }
 
 /* Footer */
