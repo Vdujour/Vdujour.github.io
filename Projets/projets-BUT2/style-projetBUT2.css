@@ -100,22 +100,26 @@ body{
         padding: 100px 0px 100px 0px;
     }
 
-    .background1 .grid-div{
+    .grid-div{
         display: grid;
-        grid-template-columns: 2fr 1fr;
         place-items: center;
-        max-width: 90%;
+        max-width: 80%;
         margin: 0 auto;
         gap: 60px;
     }
 
+    .background1 .grid-div{
+        grid-template-columns: 2fr 1fr;
+        grid-template-areas: "image texte";
+    }
+
     .background2 .grid-div{
-        display: grid;
         grid-template-columns: 1fr 2fr;
-        place-items: center;
-        max-width: 90%;
-        margin: 0 auto;
-        gap: 60px;
+        grid-template-areas: "texte image";
+    }
+
+    .titre-desc{
+        grid-area: texte;
     }
 
     .background1 .titre-desc h2{
@@ -140,6 +144,7 @@ body{
     .photo-projet{
         max-width: 100%;
         padding-left: 50px;
+        grid-area: image;
     }
 
     .photo-projet img{
@@ -213,19 +218,33 @@ body{
 
     /*PROJET*/
 
-    .background1 .grid-div{
-        display: grid;
-        grid-template-columns: repeat(1, 1fr);
+    
+    
+    .background1 .grid-div, 
+    .background2 .grid-div {
+        grid-template-columns: 1fr;
+        grid-template-areas: 
+            "texte"
+            "image";
     }
-
-
-    .background2 .grid-div{
-        display: grid;
-        grid-template-columns: repeat(1, 1fr);
+        
+    .background1 .photo-projet,
+    .background2 .photo-projet {
+        padding-left: 0;
     }
+    
 
-    .photo-projet{
-        padding-left: 0px;
+    
+    .photo-projet img {
+        width: 100%;
+        max-width: 500px;
+        margin: 0 auto;
+        display: block;
+    }
+    
+
+    .titre-desc h2{
+        text-align: center;
     }
 
     p{
@@ -247,16 +266,6 @@ body{
         padding: 2rem;
         color: var(--blue);
     } 
-
-    .conteneur-projet{
-        padding: 1rem 1rem 4rem;
-        max-width: 80%;
-    }
-
-    .projet-duo{
-        display: grid;
-        grid-template-columns: repeat(1, 1fr);
-    }
 
     /*FOOTER*/
 
