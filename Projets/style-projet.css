@@ -77,7 +77,7 @@ body{
         display: flex;
         align-items: center;
         justify-content: center;
-        padding: 80px 0px 80px 0px;
+        padding: 70px 0px 70px 0px;
         color: var(--blue);
     }
 
@@ -218,7 +218,10 @@ body{
 
     /*PROJET*/
 
-    
+    .titre{
+        font-size: 0.91rem;
+    }
+
     
     .background1 .grid-div, 
     .background2 .grid-div {
