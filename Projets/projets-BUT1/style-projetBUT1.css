@@ -67,66 +67,110 @@ body{
     width: 100%;
 }
 
-/* TITRE */
-
-.titre{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    max-width: 500px;
-    margin: auto;
-    margin-top: 5rem;
-    padding: 2rem;
-    background-color: var(--blue);
-    border-radius: 25px;
-    color: #fff;
-}
-
 /* Projets */
 
-.conteneur-projet{
-    max-width: 80%;
-    margin: auto;
-    margin-top: 5rem;
-    margin-bottom: 5rem;
-    padding: 2rem 2rem 6rem;
-    background-color: var(--blue);
-    border-radius: 25px;
-}
+.projet-global{
+    width: 100%;
+    }
 
-section h2{
-    color: #fff;
-    font-size: 2rem;
-    padding: 3rem;
-    text-align: center;
-}
+    .titre{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 80px 0px 80px 0px;
+        color: var(--blue);
+    }
 
-section p{
-    color: #fff;
-    padding: 1rem;
-}
+    .background1{
+        background-color: var(--body_color);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
 
-.contenu-projet2{
-    position: relative;
-    display:grid;
-    align-items: center;
-    justify-items: center;
-}
+    .background2{
+        background-color: var(--blue);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
 
-section .photo-projet{
-    position: relative;
-}
+    .projet-unique{
+        width: 100%;
+        padding: 100px 0px 100px 0px;
+    }
 
-section .photo-projet img{
-    max-width:100%;
-    border-radius: 15px;
-}
+    .grid-div{
+        display: grid;
+        place-items: center;
+        max-width: 80%;
+        margin: 0 auto;
+        gap: 60px;
+    }
 
-.projet-duo{
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-}
+    .background1 .grid-div{
+        grid-template-columns: 2fr 1fr;
+        grid-template-areas: "image texte";
+    }
 
+    .background2 .grid-div{
+        grid-template-columns: 1fr 2fr;
+        grid-template-areas: "texte image";
+    }
+
+    .titre-desc{
+        grid-area: texte;
+    }
+
+    .background1 .titre-desc h2{
+        padding-bottom: 30px;
+    }
+
+    .background1 .titre-desc p {
+        text-align: justify;
+    }
+
+    .background2 .titre-desc h2{
+        color: white;
+        padding-bottom: 30px;
+    }
+
+    .background2 .titre-desc p {
+        color: white;
+        text-align: justify;
+    }
+
+
+    .photo-projet{
+        max-width: 100%;
+        padding-left: 50px;
+        grid-area: image;
+    }
+
+    .photo-projet img{
+        border-radius: 10px;
+    }
+
+    .background1 .acces-projet{
+        color: var(--blue);
+        padding-top: 20px;
+    }
+
+    .background2 .acces-projet{
+        color: white;
+        padding-top: 20px;
+    }
+
+    .background1 .acces-projet:hover{
+        color: var(white);
+        transition: all 0.4s ease;
+    }
+
+    .background2 .acces-projet:hover{
+        color: var(--secondary-color);
+        transition: all 0.4s ease;
+    
+}
 
 
 /* Footer */
@@ -167,38 +211,40 @@ section .photo-projet img{
   
 
 @media (width < 900px){
-    /*nav bar*/
 
     .header-liste{
         display: none;
     }
 
-    nav{
-        grid-template-columns: repeat(1,1fr);
-        font-size: 0.85rem;
-    }
+    /*PROJET*/
 
-    nav .contenu{
-        text-align: center;
+    
+    
+    .background1 .grid-div, 
+    .background2 .grid-div {
+        grid-template-columns: 1fr;
+        grid-template-areas: 
+            "texte"
+            "image";
     }
-
-    nav .photo-profil img{
-        max-width: 300px;
+        
+    .background1 .photo-projet,
+    .background2 .photo-projet {
+        padding-left: 0;
     }
+    
 
-    nav .CV{
+    
+    .photo-projet img {
+        width: 100%;
+        max-width: 500px;
         margin: 0 auto;
-        margin-top: 1rem;
-        max-width: 210px;
+        display: block;
     }
+    
 
-    nav .contenu h1{
-        font-size: 1.5rem;
-        line-height: 2.5rem;
-    }
-
-    nav .contenu h1 span{
-        font-size: 2.5rem;
+    .titre-desc h2{
+        text-align: center;
     }
 
     p{
@@ -208,22 +254,20 @@ section .photo-projet img{
 
     section h2{
         font-size: 1.5rem;
-        padding: 1rem 1rem 1rem;
     }
 
     .titre{
-        max-width: 350px;
-    }   
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        max-width: 500px;
+        margin: auto;
+        margin: 50px;
+        padding: 2rem;
+        color: var(--blue);
+    } 
 
-    .conteneur-projet{
-        padding: 1rem 1rem 4rem;
-        max-width: 80%;
-    }
-
-    .projet-duo{
-        display: grid;
-        grid-template-columns: repeat(1, 1fr);
-    }
+    /*FOOTER*/
 
     .text-footer{
         display:block;
