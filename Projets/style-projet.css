@@ -152,13 +152,14 @@ body{
         justify-content:left;
         gap: 1%;
         flex-wrap: wrap;
+        cursor: default;
     }
 
     .background2 .list-competence li{
         list-style: none;
         display: flex;
         background-color: var(--secondary-color);
-        padding: 2%;
+        padding: 2% 5%;
         margin-top: 2%;
         border-radius: 50px;     
         border: 1.5px solid rgba(255, 255, 255, 0.3);
