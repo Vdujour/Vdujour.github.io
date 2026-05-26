@@ -1,0 +1,16 @@
+[
+  {
+    "title": "Classification d'images - Réseaux de neuronnes",
+    "description": "Ce projet avait pour objectif de classifier des images de la base de données Wang (1000 images) en utilisant des réseaux de neurones. Nous avons mis en place un modèle de classification supervisée capable de prédire la catégorie d’une image parmi 10 classes, en optimisant différents hyperparamètres (architecture, batch size, fonction d’activation). Des indicateurs de performance tels que l’accuracy, la loss et la matrice de confusion ont permis d’évaluer et de comparer les modèles. Ce projet offre une analyse complète des performances des réseaux de neurones en classification d’images, en mettant en évidence les bénéfices des approches deep face aux méthodes classiques.",
+    "image": "./photo_projet/Reseaux_neuronnes.png",
+    "skills": ["Python", "Tensorflow"],
+    "background": "background2"
+  },
+  {
+    "title": "Classification d'images - Réseaux de neuronnes",
+    "description": "Ce projet avait pour objectif de classifier des images de la base de données Wang (1000 images) en utilisant des réseaux de neurones. Nous avons mis en place un modèle de classification supervisée capable de prédire la catégorie d’une image parmi 10 classes, en optimisant différents hyperparamètres (architecture, batch size, fonction d’activation). Des indicateurs de performance tels que l’accuracy, la loss et la matrice de confusion ont permis d’évaluer et de comparer les modèles. Ce projet offre une analyse complète des performances des réseaux de neurones en classification d’images, en mettant en évidence les bénéfices des approches deep face aux méthodes classiques.",
+    "image": "./photo_projet/Reseaux_neuronnes.png",
+    "skills": ["Python", "Tensorflow"],
+    "background": "background1"
+  }
+]

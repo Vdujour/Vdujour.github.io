@@ -1,0 +1,79 @@
+[
+  {
+    "title": "Analyse de la situation socio-économique de la Martinique",
+    "description": "L'objectif de ce projet était d'analyser la situation socio-économique de la Martinique en 2020. Les données utilisées proviennent de l'INSEE et portent sur la démographie en Martinique. Ce projet a été réalisé individuellement sur une durée d'un mois et demi. Les graphiques ont été créés à l'aide d'Excel, et un compte-rendu final a été rédigé au format PDF.",
+    "image": "./photo_projet/projet martinique.png",
+    "skills": ["Word", "Excel", "Esprit critique"],
+    "background": "background2"
+  },
+  {
+    "title": "Écriture et lecture d'un fichier de données en Python",
+    "description": "L'objectif de ce projet était de convertir un fichier JSON en fichier CSV à l'aide de Python. Ce travail a été réalisé en binôme sur une durée d'une semaine. Ce projet m'a permis de découvrir le travail en groupe ainsi que les difficultés qui peuvent y être associées. Il m'a également aidé à comprendre l'importance de la gestion des données pour pouvoir les traiter efficacement.",
+    "image": "./photo_projet/gestion de fichier.JPG",
+    "skills": ["Python", "JSON", "Travail de groupe"],
+    "background": "background1"
+  },
+  {
+    "title": "Application automatisée - reporting notes",
+    "description": "Ce projet avait pour objectif de créer un reporting permettant de visualiser nos notes de première année. Nous l'avons réalisé en binôme à l'aide du logiciel Excel. Nous avons largement utilisé Visual Basic for Applications (VBA) afin d'automatiser le reporting. À mes yeux, ce projet a été celui où j'ai le plus appris sur le travail en équipe, notamment en ce qui concerne la répartition des tâches et la communication. Le projet a été mené sur une durée de trois semaines.",
+    "image": "./photo_projet/projet VBA.png",
+    "skills": ["Excel", "VBA", "Automatisation"],
+    "background": "background2"
+  },
+  {
+    "title": "Analyse des logements des étudiants",
+    "description": "Nous avons mené une analyse sur le logement des étudiants du campus universitaire de Niort, à partir des résultats d'une enquête. Pour cela, nous avons utilisé le logiciel Sphinx. La problématique abordée était : « Le logement des étudiants a-t-il un impact sur leur réussite universitaire ? » Ce projet a été réalisé en binôme sur une journée.",
+    "image": "./photo_projet/projet logement étudiant.png",
+    "skills": ["Word", "Sphinx", "Étude"],
+    "background": "background1"
+  },
+  {
+    "title": "Présentation d'un territoire économique",
+    "description": "Dans le cadre de ce projet, nous avons présenté l'économie et la culture d'un territoire. Nous avons choisi la ville d'Athènes pour son économie fortement liée au tourisme et sa richesse culturelle, notamment à travers la mythologie grecque. Le projet a été réalisé en groupe de trois personnes sur une durée de deux semaines. La présentation comportait une partie en français et une autre en anglais.",
+    "image": "./photo_projet/projet territoire.JPG",
+    "skills": ["Oral", "Français / Anglais", "Powerpoint"],
+    "background": "background2"
+  },
+  {
+    "title": "Analyse d'indicateur de performance de Poujoulat",
+    "description": "Ce projet avait pour objectif d'analyser la situation de l'entreprise Poujoulat en 2022 et 2023, à l'aide des tableaux des Soldes Intermédiaires de Gestion (SIG) et de l'étude des bilans fonctionnels sur les mêmes périodes. Il a été réalisé en binôme sur une journée.",
+    "image": "./photo_projet/projet indicateur de performance.png",
+    "skills": ["Word", "Comptabilité", "Gestion"],
+    "background": "background1"
+  },
+  {
+    "title": "Création et implémentation d'une base de données",
+    "description": "Ce projet avait pour objectif de créer et d'implémenter la base de données du Service Départemental d'Incendie et de Secours des Deux-Sèvres (SDIS 79). Nous disposions de plusieurs fichiers CSV contenant des extraits de la base de données existante, que nous devions reconstruire à l'aide de Python et MySQL. Pour vérifier le bon fonctionnement de la base, nous avons rédigé et exécuté des requêtes permettant d'interroger les données. Ce projet a été réalisé en groupe de trois sur une durée d'un mois.",
+    "image": "./photo_projet/PROJET BDD.png",
+    "skills": ["MCD", "SQL / MySQL", "Python"],
+    "background": "background2"
+  },
+  {
+    "title": "Dataviz accidents corporels",
+    "description": "Ce projet avait pour objectif d'identifier les départements les plus touchés par les accidents corporels, d'évaluer l'impact éventuel de la pandémie de Covid-19 sur ces accidents, et d'analyser les caractéristiques des personnes concernées. Il s'agissait d'un travail individuel réalisé sur une semaine. L'analyse a été menée à l'aide du logiciel Power BI, afin de produire des visualisations claires et pertinentes pour appuyer les conclusions.",
+    "image": "./photo_projet/projet dataviz.JPG",
+    "skills": ["Power BI", "Power Query", "Datavisualisation"],
+    "background": "background1"
+  },
+  {
+    "title": "Statistique inférentielle sur la population de la Nouvelle-Aquitaine",
+    "description": "Ce projet avait pour objectif d'estimer la population de la région Nouvelle-Aquitaine à l'aide de deux méthodes : l'échantillonnage aléatoire simple et l'échantillonnage aléatoire stratifié. Nous avons également réalisé des tests du khi-deux d'indépendance sur des variables issues d'un fichier nommé \"voitures\", contenant des données distinctes de celles de la Nouvelle-Aquitaine. Ce projet a été mené en binôme sur une durée d'une semaine.",
+    "image": "./photo_projet/projet statistique inférentiel.png",
+    "skills": ["R", "Statistique"],
+    "background": "background2"
+  },
+  {
+    "title": "Régression sur les prix des logements à Paris",
+    "description": "L'objectif de ce projet était d'appliquer des modèles de prévision sur différentes caractéristiques telles que la surface, l'arrondissement ou encore le nombre de pièces des appartements parisiens, afin d'estimer leur prix. Ce travail a été réalisé en binôme à l'aide du logiciel R.",
+    "image": "./photo_projet/projet régression.png",
+    "skills": ["R", "Régression linéaire simple", "Estimation"],
+    "background": "background1"
+  },
+  {
+    "title": "Analyse de données, reporting et dataviz",
+    "description": "Ce projet a été réalisé en collaboration avec l'entreprise Calyxis, et plus précisément avec l'observatoire MAVIE, basé à Niort. L'objectif était de concevoir un outil dynamique permettant de générer des visualisations de données à partir de fichiers préalablement intégrés dans l'interface. Il s'agissait du projet final de la première année de BUT. Le travail a été mené en groupe de quatre personnes sur une durée de deux semaines. À l'issue du projet, nous avons présenté notre solution devant un jury, en anglais.",
+    "image": "./photo_projet/projet final.png",
+    "skills": ["Power BI", "R", "Python", "Oral"],
+    "background": "background2"
+  }
+]
