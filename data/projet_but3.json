@@ -21,5 +21,27 @@
     "skills": ["HTML/CSS", "JS/REACT", "API", "GitHub"],
     "background": "background2",
     "link": "https://github.com/Vdujour/music-discovery-app"
+  },
+  {
+    "title": "Application d'annotation des commentaires de films",
+    "description": "",
+    "image": "./photo_projet/projet_dash.png",
+    "skills": ["Python", "Dash", "Annotation"],
+    "background": "background1"
+  },
+  {
+    "title": "MyDental - Application de gestion de cabinet dentaire",
+    "description": "",
+    "image": "./photo_projet/MyDental.png",
+    "skills": ["HTML/CSS/JS", "Docker", "API", "MariaDB"],
+    "background": "background2",
+    "link": "https://github.com/elliotfx/Andrea-Elliot-Justin-ValentinSAE"
+  },
+  {
+    "title": "Classification des sentiments des tweets",
+    "description": "",
+    "image": "./photo_projet/pySpark_projet.png",
+    "skills": ["Python", "pySpark", "Kafka"],
+    "background": "background1"
   }
 ]
