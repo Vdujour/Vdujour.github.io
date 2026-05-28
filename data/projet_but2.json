@@ -1,0 +1,66 @@
+[
+  {
+    "title": "Création d'un site de gestion - Concession BMW",
+    "description": "L'objectif de ce projet était de réaliser un site internet destiné à faciliter la gestion d'une concession automobile BMW. Nous avons mené ce projet en duo sur une durée de 1 mois. Pour le réaliser, nous avons développé des compétences en PHP et JavaScript, afin d'alimenter une base de données hébergée sur un serveur PhpMyAdmin. Ce site permet de référencer les vendeurs, les clients, les ventes et les véhicules de la concession. Bien sûr, les modifications de la base de données peuvent se faire directement depuis le site. Nous avons également conçu une partie \"tableau de bord\" destinée aux utilisateurs se connectant avec un identifiant spécifique. Cette section permet d'évaluer les performances des vendeurs de la concession et d'effectuer des analyses sur les véhicules vendus.",
+    "image": "./photo_projet/projet BMW php.PNG",
+    "skills": ["HTML", "CSS", "PHP", "MySQL"],
+    "background": "background2"
+  },
+  {
+    "title": "Application automatisée - Section sportive La Venise Verte",
+    "description": "L'objectif de ce projet était de réaliser une application VBA afin de référencer les joueurs de la section football du lycée La Venise Verte à Niort. Cette application permet d'établir un classement en fonction des notes attribuées au préalable par les coachs. Chaque joueur possède une fiche technique contenant ses notes effectives ainsi que ses caractéristiques (âge, provenance, etc...). L'application permet également de comparer des joueurs sélectionnés en fonction de leurs résultats, ce qui en fait un véritable outil d'aide à la décision pour identifier les joueurs les plus performants lors des sélections. Ce projet a été réalisé en duo, sur une durée de 3 semaines.",
+    "image": "./photo_projet/projet VBA LVV.PNG",
+    "skills": ["VBA", "Automatisation"],
+    "background": "background1"
+  },
+  {
+    "title": "Création d'un reporting - L'Oréal",
+    "description": "Ce projet avait pour objectif de créer un tableau de bord représentant la situation économique de L'Oréal. Nous disposions d'un jeu de données sur les performances économiques de l'entreprise, et nous avons dû réaliser un reporting afin de montrer l'évolution de l'entreprise dans le temps et à l'international. Ce projet a été réalisé seul, sur une durée de deux semaines. Pour ce projet, le logiciel imposé était Excel uniquement. Malgré les limites de ce logiciel en matière de datavisualisation, le résultat est plutôt satisfaisant. Les visualisations présentées sont claires et synthétiques. Le reporting permet de retrouver des informations sur le chiffre d'affaires, la productivité, ainsi que la rentabilité de l'entreprise.",
+    "image": "./photo_projet/projet tdb loreal.PNG",
+    "skills": ["Excel", "Canva", "Datavisualisation"],
+    "background": "background2"
+  },
+  {
+    "title": "Carte des pouvoirs d'achat en France",
+    "description": "Ce projet, réalisé en groupe de quatre, visait à créer une carte interactive à partir de données obtenues par web scraping. Deux approches étaient demandées : l'une via API, l'autre de manière manuelle. J'ai travaillé sur la partie sans API. Nous avons extrait des données d'un site référençant, par département, le revenu moyen et le prix moyen des logements. À partir de ces données, nous avons calculé un ratio revenu/prix pour représenter le pouvoir d'achat immobilier, puis l'avons visualisé sur une carte.",
+    "image": "./photo_projet/projet web scrapping.PNG",
+    "skills": ["Web Scraping", "Python", "Pandas", "Folium / Leaflet"],
+    "background": "background1"
+  },
+  {
+    "title": "Prévision économique de l'Arabie Saoudite",
+    "description": "Durant ce projet, nous avons réalisé une régression linéaire simple (RLS) sur les importations de l'Arabie Saoudite. Une RLS consiste à modéliser la relation entre une variable dépendante (ici, les importations) et une variable indépendante (par exemple, le temps ou un indicateur économique), à l'aide d'une droite d'ajustement. Cette méthode nous a permis de prévoir l'évolution des importations dans les années à venir, en fournissant une estimation basée sur les tendances passées. Elle permet également d'évaluer la situation économique future du pays, en identifiant les périodes de croissance ou de ralentissement. L'enjeu principal de ce projet était non seulement de produire une prévision fiable, mais aussi de comprendre les causes des variations observées dans les données. Cela impliquait une analyse des facteurs économiques, géopolitiques ou commerciaux pouvant influencer les importations.",
+    "image": "./photo_projet/projet arabie saoudite.PNG",
+    "skills": ["Excel", "Régression linéaire simple", "Prédictions"],
+    "background": "background2"
+  },
+  {
+    "title": "Cartographie des McDonald's de France",
+    "description": "Le but de ce projet était de mener une étude géographique afin d'identifier les meilleurs emplacements pour implanter de nouveaux McDonald's en France. Pour cela, nous avons utilisé le logiciel QGIS, qui permet de réaliser des cartographies précises et détaillées. Grâce à un jeu de données répertoriant l'ensemble des McDonald's déjà présents sur le territoire français, nous avons pu créer des cartes permettant de visualiser les zones les moins couvertes. Ces analyses ont permis de mettre en évidence les régions stratégiques où l'implantation d'un nouveau restaurant serait la plus pertinente.",
+    "image": "./photo_projet/SIG.PNG",
+    "skills": ["QGIS", "SIG", "Cartographie"],
+    "background": "background1"
+  },
+  {
+    "title": "Logements à Paris",
+    "description": "Ce projet avait pour objectif de référencer l'ensemble des logements Airbnb à Paris. Nous avons mené des analyses de prix en fonction des arrondissements, des types de logements et du nombre d'avis laissés par les utilisateurs. Nous avons également conçu plusieurs indicateurs clés de performance (KPI), tels que le prix moyen, la disponibilité moyenne, le taux de réponse des hôtes, ou encore le quartier le plus populaire. Ce projet permet de réaliser une analyse approfondie du marché Airbnb parisien, en croisant des données essentielles pour mieux comprendre l'offre et faciliter la recherche de logement.",
+    "image": "./photo_projet/streamlit.PNG",
+    "skills": ["Python", "Streamlit", "KPI"],
+    "background": "background2",
+    "link": "https://vcodairbnb.streamlit.app/"
+  },
+  {
+    "title": "Informations n° SIRET (Projet personnel)",
+    "description": "Grâce aux compétences acquises lors du projet de web scraping, j'ai pu réaliser un second projet visant à identifier des informations clés sur une entreprise à partir de son numéro SIRET. Ce projet permet d'extraire automatiquement les données suivantes : Le nom de l'entreprise, Le nom et prénom du dirigeant, L'adresse complète, Le département, Le statut de l'entreprise (active/inactive), Le code APE. Ce travail m'a permis d'approfondir mes compétences en web scraping, notamment dans l'extraction de données structurées à partir de sources officielles et dans l'automatisation de la collecte d'informations.",
+    "image": "./photo_projet/siret.PNG",
+    "skills": ["Web scraping", "Python", "Pandas"],
+    "background": "background1"
+  },
+  {
+    "title": "Rapport d'alternance 2ème année",
+    "description": "Ce rapport a pour objectif de retracer l'évolution de mon parcours en alternance au sein de la MAIF sur les 10 premiers mois. \"Durant mes dix mois d'alternance au sein de l'équipe START de la MAIF, j'ai participé à de nombreuses missions centrées sur l'exploitation de la donnée, allant de la mise en conformité CNIL à la création de tableaux de bord décisionnels. Cette expérience m'a permis de développer des compétences techniques solides sur des outils comme Alteryx, Spotfire et DBeaver, tout en renforçant mon autonomie et ma rigueur. J'ai également appris à collaborer efficacement avec des équipes métiers variées, en répondant à des besoins concrets et évolutifs. Cette immersion professionnelle a été une étape déterminante dans mon parcours, consolidant mon projet dans le domaine de la data.\"",
+    "image": "./photo_projet/rapport maif.png",
+    "skills": ["Word", "Excel"],
+    "background": "background2"
+  }
+]
