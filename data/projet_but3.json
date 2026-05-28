@@ -38,10 +38,17 @@
     "link": "https://github.com/elliotfx/Andrea-Elliot-Justin-ValentinSAE"
   },
   {
+    "title": "Analyse des transports à Paris 2055",
+    "description": "Ce projet a pour objectif de concevoir une base de données NoSQL, d’intégrer et de manipuler les données avec PyMongo, puis de restituer des analyses à travers une application interactive développée avec Streamlit. La base de données utilisée repose sur un jeu de données simulant les transports de Paris en 2055. Le projet met en avant la modélisation de données non relationnelles, l’interrogation de la base via des requêtes optimisées et la création de tableaux de bord dynamiques pour l’exploration des résultats.",
+    "image": "./photo_projet/mongoDB.png",
+    "skills": ["Python", "MongoDB", "Streamlit"],
+    "background": "background1"
+  },
+  {
     "title": "Classification des sentiments des tweets",
     "description": "J'ai développé un système de classification des sentiments de tweets en temps réel. Le projet s'est articulé autour de quatre étapes : la collecte des données via un flux Kafka, l'analyse et la préparation des données afin de concevoir le modèle de régression le plus performant, puis la mise en place d'un pipeline de traitement appliquant le modèle aux tweets collectés. Enfin, un tableau de bord interactif a été développé pour visualiser et analyser les prédictions de sentiments. Ce projet très complet m'a permis de renforcer mes compétences en machine learning, développement de pipelines de données et visualisation analytique. ",
     "image": "./photo_projet/pySpark_projet.png",
     "skills": ["Python", "PySpark", "Kafka"],
-    "background": "background1"
+    "background": "background2"
   }
 ]
