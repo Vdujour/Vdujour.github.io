@@ -1,22 +1,22 @@
 [
   {
-    "title": "Classification d'images - Réseaux de neuronnes",
-    "description": "Ce projet avait pour objectif de classifier des images de la base de données Wang (1000 images) en utilisant des réseaux de neurones. Nous avons mis en place un modèle de classification supervisée capable de prédire la catégorie d’une image parmi 10 classes, en optimisant différents hyperparamètres (architecture, batch size, fonction d’activation). Des indicateurs de performance tels que l’accuracy, la loss et la matrice de confusion ont permis d’évaluer et de comparer les modèles. Ce projet offre une analyse complète des performances des réseaux de neurones en classification d’images, en mettant en évidence les bénéfices des approches deep face aux méthodes classiques.",
+    "title": "Classification d'images - Réseaux de neurones",
+    "description": "Ce projet avait pour objectif de classifier des images de la base de données Wang (1000 images) en utilisant des réseaux de neurones. Nous avons mis en place un modèle de classification supervisée capable de prédire la catégorie d'une image parmi 10 classes, en optimisant différents hyperparamètres (architecture, batch size, fonction d'activation). Des indicateurs de performance tels que l'accuracy, la loss et la matrice de confusion ont permis d'évaluer et de comparer les modèles. Ce projet offre une analyse complète des performances des réseaux de neurones en classification d'images, en mettant en évidence les bénéfices des approches deep learning face aux méthodes classiques.",
     "image": "./photo_projet/Reseaux_neuronnes.png",
     "skills": ["Python", "Tensorflow", "Sklearn", "Classification"],
     "background": "background2"
   },
   {
     "title": "Chatbot Agent IA",
-    "description": "J'ai développé un chatbot intelligent qui permet de répondre à des questions sur mes projets et mon parcours professionnel. Ce projet à été réalisé en utilisant un RAG stocké dans une base de données vectorielle. Le chatbot s'appuie sur la base Upstash afin de répondre correctement. Le modèle utilisé est un modèle d'openai nommé 'gpt-oss-120b' via l'API Groq. Ce projet m'a permis d'apprendre et de comprendre comment utiliser un agent IA sur python en créant une interface utilisateur simple.",
+    "description": "J'ai développé un chatbot intelligent qui permet de répondre à des questions sur mes projets et mon parcours professionnel. Ce projet a été réalisé en utilisant un RAG stocké dans une base de données vectorielle. Le chatbot s'appuie sur la base Upstash afin de répondre correctement. Le modèle utilisé est un modèle d'OpenAI nommé 'gpt-oss-120b' via l'API Groq. Ce projet m'a permis d'apprendre et de comprendre comment utiliser un agent IA en Python en créant une interface utilisateur simple.",
     "image": "./photo_projet/Chatbot-VD.png",
     "skills": ["Python", "Streamlit", "Agent IA", "API", "Upstash"],
     "background": "background1",
     "link": "https://chatbot-valentin-dujour.streamlit.app/"
   },
   {
-    "title": "Développement d'application WEB",
-    "description": "",
+    "title": "Développement d'application web",
+    "description": "J'ai développé une application web exploitant l’API Spotify, permettant aux utilisateurs de se connecter à leur compte afin de consulter leurs statistiques musicales personnelles, comme leur top 10 des morceaux les plus écoutés, leurs artistes favoris et leurs playlists les plus utilisées. Ce projet m’a permis de comprendre le fonctionnement complet d’une application web, de la gestion des appels API à l’affichage dynamique des données avec React. J’ai également appris à travailler avec la méthode GitFlow, ce qui m’a aidé à maintenir une architecture de projet propre et un suivi de développement structuré.",
     "image": "./photo_projet/app_spotify.png",
     "skills": ["HTML/CSS", "JS/REACT", "API", "GitHub"],
     "background": "background2",
@@ -24,14 +24,14 @@
   },
   {
     "title": "Application d'annotation des commentaires de films",
-    "description": "",
+    "description": "Cette application permet aux utilisateurs d’annoter des commentaires de films selon trois catégories de sentiments : négatif, neutre ou positif. Les annotations peuvent ensuite être modifiées et exploitées à travers différentes visualisations afin d’identifier les tendances globales et la répartition des sentiments associés aux commentaires. Le projet intègre également des analyses statistiques permettant de mieux comprendre les données collectées. À terme, cette base d’annotations pourra être utilisée pour entraîner un modèle de classification automatique des sentiments.",
     "image": "./photo_projet/projet_dash.png",
     "skills": ["Python", "Dash", "Annotation"],
     "background": "background1"
   },
   {
     "title": "MyDental - Application de gestion de cabinet dentaire",
-    "description": "",
+    "description": "Nous avons amélioré une application de gestion de cabinet dentaire nommée MyDental. Nous avons ajouté de nouvelles fonctionnalités telles que des informations sur les performances des médecins, les performances du cabinet ou encore de la qualité de données sur la base de données existante. Nous avons également mis en place une nouvelle interface utilisateur pour améliorer l'expérience des utilisateurs. Ce projet m'a permis de travailler en équipe et d'améliorer mes compétences en gestion de projet et en analyse de données.",
     "image": "./photo_projet/MyDental.png",
     "skills": ["HTML/CSS/JS", "Docker", "API", "MariaDB"],
     "background": "background2",
@@ -39,9 +39,9 @@
   },
   {
     "title": "Classification des sentiments des tweets",
-    "description": "",
+    "description": "J'ai développé un système de classification des sentiments de tweets en temps réel. Le projet s'est articulé autour de quatre étapes : la collecte des données via un flux Kafka, l'analyse et la préparation des données afin de concevoir le modèle de régression le plus performant, puis la mise en place d'un pipeline de traitement appliquant le modèle aux tweets collectés. Enfin, un tableau de bord interactif a été développé pour visualiser et analyser les prédictions de sentiments. Ce projet très complet m'a permis de renforcer mes compétences en machine learning, développement de pipelines de données et visualisation analytique. ",
     "image": "./photo_projet/pySpark_projet.png",
-    "skills": ["Python", "pySpark", "Kafka"],
+    "skills": ["Python", "PySpark", "Kafka"],
     "background": "background1"
   }
 ]
